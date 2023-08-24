@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Recuperación de usuario</title>
+</head>
+<body>
+
+    <header>
+        <div class="header">
+            <button id="inicio">Inicio</button>
+            <a href="/inicio-de-sesión.html"></a>
+            
+            <button id="darkModeButton">Dark Mode</button>
+            <select id="languageButton">
+                <option value="Idioma">Idioma</option>
+                <option value="ES">Español</option>
+                <option value="ENG">Inglés</option>
+            </select>
+            
+        </div>
+
+    </header>
+    
+    <div class="login-container" id="login-container">
+        <h1>Bienvenido al Home Banking ITBANK</h1>
+        
+
+        
+        <form id="login-form">
+            <h2>Recuperación de usuario</h2>
+
+        
+            <h3>Olvidé o bloqueé mi Usuario / Clave Digital</h3>
+            <p>Por favor, proporciona tu dirección de correo electrónico o usuario para recuperar tu cuenta.</p>
+            <label for="email-or-username">Email o Usuario:</label>
+            <input type="text" id="email-or-username" name="email-or-username" required>
+            <button type="submit" id="recuperar-button">Recuperar</button>
+        </form>
+    </div>
+
+
+
+    <script src="script2.js"></script>
+</body>
+</html>

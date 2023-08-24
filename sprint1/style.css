@@ -1,0 +1,221 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Estilos para el modo oscuro */
+.dark-mode {
+    background-color: #222;
+    color: #222;
+    
+}
+
+.dark-mode h1 {
+    background-color: #222;
+    color: white;
+    
+}
+
+/* Estilos para los botones */
+#access-button,
+#inicio,
+#darkModeButton,
+#languageButton,
+[type="submit"] {
+    background-color: #7b90f0;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#access-button:hover,
+#inicio:hover,
+#darkModeButton:hover,
+#languageButton:hover,
+[type="submit"]:hover {
+    color: #16276f;
+}
+
+
+#register-form,
+#forgot-password-form {
+    display: flex;
+    align-content: center;
+}
+
+
+
+/* Estilos para el contenedor del formulario */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    min-height: 100vh;
+}
+
+.login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+/* Estilos para los formularios */
+form {
+    width: 80%;
+    max-width: 450px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 100px 0px 0px 0px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+form login-form {
+    width: 80%;
+    max-width: 450px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 100px 0px 0px 0px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    margin-bottom: 10px;
+}
+
+form label {
+    display: flex;
+    margin-bottom: 5px;
+}
+
+form select,
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form select:hover,
+form input[type="text"]:hover,
+form input[type="password"]:hover {
+    border-color: #cccccc;
+    background-color: #ececec;
+}
+
+form button[type="submit"] {
+    background-color: #7b90f0;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button[type="submit"]:hover {
+    color: white;
+    background-color: #b71818;
+}
+
+
+button [type="submit"]:hover { 
+    color: #16276f;
+    font-size: 80px;
+}
+
+
+
+/* Otros estilos */
+.register-link,
+.forgot-link {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.register-link a,
+.forgot-link a {
+    color: #7b90f0;
+    text-decoration: none;
+}
+
+
+
+.header {
+    background-color: #7b90f0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.header :hover {
+    color: #16276f;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.terminos-condiciones {
+    color: #7b90f0;
+    text-decoration: none;
+}
+
+
+[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+[type="submit"]:hover {
+    background-color: #b71818;
+}
+
+
+@media (max-width: 768px) {
+    form {
+        width: 90%;
+        padding: 15px;
+    }
+
+
+    form select,
+    form input[type="text"],
+    form input[type="password"] {
+        padding: 5px;
+    }
+
+    #access-button,
+    #inicio,
+    #darkModeButton,
+    #languageButton {
+        font-size: 20px;
+        padding: 6px 12px;
+    }
+}
+
+
+
+
+
+
+
+
+
+

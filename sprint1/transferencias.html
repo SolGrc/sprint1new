@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>ITBANK</title>
+    <link rel="icon" type="image/jpg" href="fotos/bank.png">
+    <link type="text/css" rel="stylesheet" href="style2.css"/>
+    <script src="script.js"></script>
+    <link type="text/css" rel="stylesheet" href="css/btn.css"/>
+    <link rel="stylesheet" href="css/maqueta.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="btn-menu">
+                <label for="btn-menu" class="icon-menu">Menú</label>
+            </div>
+            <div class="logo">
+                <h1>ITBANK</h1>
+            </div>
+        </div>
+    </header>
+    <input type="checkbox" id="btn-menu">
+    <div class="container-menu">
+        <div class="contenido-menu">
+            <ul>
+                <li>
+                    <a href="inicio.html" title="Inicio">Inicio</a>
+                </li>
+                <li>
+                    <a href="cuentas.html" title="Cuentas">Cuentas</a>
+                </li>
+                <li>
+                    <a href="transferencias.html" title="Transferencias">Transferencias</a>
+                </li>
+            </ul>
+            <label for="btn-menu" class="icon-cancel" title="Menú">Menú</label>
+        </div>
+    </div>
+    <br><br><br><br>
+
+    <section id="main-content">
+        <div id="conversor">
+            <center>
+                <h1>Conversor de divisas</h1>
+                Cantidad: <input type="number" id="cantidad" min="0" max="1000" value="0" onchange="convertir()">
+                <span id="valor">0</span>
+                Convertir De:
+                <select name="" id="de" onchange="convertir()">
+                    <option value="1">Pesos argentinos</option>
+                    <option value="2">Dolar</option>
+                    <option value="3">Euro</option>
+                </select> <br><br>
+                Convertir A:
+                <select name="" id="a" onchange="convertir()">
+                    <option value="1">Pesos argentinos</option>
+                    <option value="2">Dolar</option>
+                    <option value="3">Euro</option>
+                </select><br>
+                <h2 id="resultado">Resultado: $0.00</h2>
+            </center>
+            <img src="fotos/cambio-dinero.jpg" alt="dinero">
+        </div>
+    </section>
+
+
+    </body>
+    </html>
+    </div>
+    <footer id="main-footer">
+        <nav>
+            <ul>
+                <li><a href="#">Políticas de privacidad</a></li>
+                <li><a href="#">Términos y condiciones</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <p>Derechos de Autor &copy; 2023 - ITBANK</p>
+    </footer>
+
+
+</body>
+</html>

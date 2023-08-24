@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Regístrate</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <button id="inicio">Inicio</button>
+            <a href="/inicio-de-sesión.html"></a>
+            
+            <button id="darkModeButton">Dark Mode</button>
+            <select id="languageButton">
+                <option value="Idioma">Idioma</option>
+                <option value="ES">Español</option>
+                <option value="ENG">Inglés</option>
+            </select>
+            
+        </div>
+
+    </header>
+    
+    
+    <div class="login-container" id="login-container">
+        <h1>Bienvenido al Home Banking ITBANK</h1>
+        
+
+
+        
+        
+        <form id="login-form"">
+            <h2>Regístrate</h2>
+
+            <h3>Creá tu Usuario y Clave Digital</h3>
+            <p>Ingresá los datos correspondientes.</p>
+            
+            <label for="document-number">Documento de identidad</label>
+                <select id="document-number">
+                  <option value="Seleccionar">Seleccionar</option>
+                  <option value="DNI">DNI</option>
+                  <option value="LC">LC</option>
+                  <option value="LE">LE</option>
+                  <option value="CI">CI</option>
+                  <option value="PASAPORTE">PASAPORTE</option>
+                  <option value="RENAPER">RENAPER</option>
+                </select>
+
+            <input type="text" id="dni" name="dni" required>
+            
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+
+            <label for="username">Usuario:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+            
+
+
+            
+            <button type="submit" id="aceptar-button">Aceptar</button>
+            <a href="/inicio-de-sesión.html" target="_blank" class=""></a>
+
+
+
+            <input type="checkbox" id="acepto" name="acepto" required/>
+            <a href="/términos-condiciones.html" target="_blank" class="terminos-condiciones">Acepto los términos y condiciones</a>
+
+        </form>
+    </div>
+
+
+
+    <script src="script2.js"></script>
+</body>
+</html>

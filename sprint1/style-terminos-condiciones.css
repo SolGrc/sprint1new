@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
+/* Estilos para los botones */
+#inicio,
+#darkModeButton,
+#languageButton,
+[type="submit"] {
+    background-color: #7b90f0;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+#inicio:hover,
+#darkModeButton:hover,
+#languageButton:hover,
+[type="submit"]:hover {
+    color: #16276f;
+}
+
+
+/* Estilos para el modo oscuro */
+.dark-mode {
+    background-color: #222;
+    color: #222;
+    
+}
+
+.dark-mode h1 {
+    background-color: #222;
+    color: white;
+    
+}
+
+.dark-mode p {
+    background-color: #222;
+    color: white;
+    
+}
+
+
+
+.header {
+    background-color: #7b90f0;
+    text-align: center;
+    padding: 10px;
+}
+
+.titulo {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
+
+nav {
+    background-color: #F5F5F5;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #314bbc;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+footer {
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+}
